@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="card item" >
+        <img [src]="avatar" class="card-img-top " alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{ name }}</h5>
+            <p class="card-text">
+                Hobbies
+                <br>
+                <ng-container *ngFor="let hobbie of hobbies">
+                    <span class="badge bg-secondary">{{ hobbie }}</span>
+                    <span>&nbsp;</span>
+                </ng-container>
+            </p>
+        </div>
+    </div>
+</div>
