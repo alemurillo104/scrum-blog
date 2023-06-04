@@ -25,7 +25,7 @@ export class TeamComponent {
       avatar : '../../../assets/img/team/willyams.jpg'
     },
     {
-      name : 'Snyder Q',
+      name : 'Snydher Rios',
       hobbies : ['Musica', 'Programar', 'Cocinar'],
       avatar : '../../../assets/img/team/snyder.jpg'
     },
